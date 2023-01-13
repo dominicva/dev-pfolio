@@ -2,11 +2,14 @@
 
 :root {
   --primary-darkest: #151515;
-  --primary--darker: #242424;
+  --primary-darker: #242424;
   --white-bright: #ffffff;
   --white-dimmed: #d9d9d9;
   --accent-green: #4ee1a0;
   --accent-red: #ff6f5b;
+
+  /* font sizing */
+  --xl: 80px;
 }
 
 *,
@@ -20,14 +23,21 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--white-bright);
   background-color: var(--primary-darkest);
+}
+
+h1,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
 }
 
 ul,
 li {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 img {

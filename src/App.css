@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 30px;
+  margin: 30px 0;
 }
 
 header > .logo {
@@ -22,8 +22,68 @@ ul.icons {
   gap: 32px;
 }
 
-@media (min-width: 1110px) {
-  header {
-    margin: 0;
+.hero {
+  display: flex;
+  position: relative;
+}
+
+.bg-detail {
+  background-image: url('./assets/bg-detail.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 130px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -180px;
+}
+
+.hero__text {
+  max-width: 706px;
+  margin-top: 90px;
+}
+
+.hero__text h1 {
+  font-size: var(--xl);
+  letter-spacing: -2.5px;
+  line-height: var(--xl);
+  margin-bottom: 40px;
+}
+
+.hero__text .bio {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white-dimmed);
+  max-width: 445px;
+  margin-bottom: 64px;
+}
+
+.hero__text > .text-link {
+  display: inline-block;
+  color: var(--white-bright);
+  letter-spacing: 2.3px;
+  line-height: 26px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent-green);
+}
+
+.image-container {
+  padding-top: 160px;
+  margin-top: -128px;
+  margin-right: -30px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--primary-darker);
+}
+
+.image-container img {
+  width: 505px;
+}
+
+@media (max-width: 1110px) {
+  .App {
+    margin: 0 30px;
   }
 }
