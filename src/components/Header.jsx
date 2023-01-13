@@ -6,7 +6,7 @@ import twitterIcon from '../assets/icons_twitter-fill.svg';
 function Header() {
   return (
     <header className="App-header">
-      <p className="logo">domvanalmsick</p>
+      <p className="logo">domvana</p>
       <ul className="icons">
         <li className="icons github">
           <a
