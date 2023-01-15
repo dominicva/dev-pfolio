@@ -122,6 +122,45 @@ ul.icons {
 .skill {
   font-size: 48px;
   line-height: 56px;
+  gap: 72px 30px;
+}
+
+.projects {
+  margin-bottom: 140px;
+}
+
+.projects h2 {
+  font-size: var(--xl);
+  line-height: var(--xl);
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.projects ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px 30px;
+}
+
+.project {
+  grid-column: span 1;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.project__content img {
+  width: 540px;
+  height: 400px;
+}
+
+.project__content p {
+  display: flex;
+  gap: 18px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white-dimmed);
+  /* flex-direction: column; */
 }
 
 @media (max-width: 1110px) {
