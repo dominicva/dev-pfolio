@@ -96,6 +96,34 @@ ul.icons {
   border-radius: 50%;
 }
 
+.skills {
+  margin-top: 220px;
+  margin-bottom: 140px;
+}
+
+.skills hr {
+  width: calc(100% + 30px);
+  margin-bottom: 72px;
+}
+
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 58px 30px;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 345px;
+}
+
+.skill {
+  font-size: 48px;
+  line-height: 56px;
+}
+
 @media (max-width: 1110px) {
   .App {
     margin: 0 30px;
