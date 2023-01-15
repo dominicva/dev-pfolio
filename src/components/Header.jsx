@@ -6,43 +6,19 @@ import twitterIcon from '../assets/icons_twitter-fill.svg';
 function Header() {
   return (
     <header className="App-header">
-      <p className="logo">domvana</p>
+      <p className="logo">adamkeyes</p>
       <ul className="icons">
         <li className="icons github">
-          <a
-            href="https://github.com/dominicva"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={githubIcon} alt="GitHub icon" />
-          </a>
+          <img src={githubIcon} alt="GitHub icon" />
         </li>
         <li className="icons github">
-          <a
-            href="https://github.com/dominicva"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={feMentorIcon} alt="Frontend mentor icon" />
-          </a>
+          <img src={feMentorIcon} alt="Frontend mentor icon" />
         </li>
         <li className="icons github">
-          <a
-            href="https://github.com/dominicva"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={linkedinIcon} alt="LinkedIn icon" />
-          </a>
+          <img src={linkedinIcon} alt="LinkedIn icon" />
         </li>
         <li className="icons github">
-          <a
-            href="https://github.com/dominicva"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
+          <img src={twitterIcon} alt="Twitter icon" />
         </li>
       </ul>
     </header>
