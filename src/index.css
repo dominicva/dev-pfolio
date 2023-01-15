@@ -35,6 +35,11 @@ li {
   margin: 0;
 }
 
+h2 {
+  font-size: var(--xl);
+  line-height: var(--xl);
+}
+
 ul,
 li {
   list-style-type: none;
